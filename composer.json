@@ -1,0 +1,26 @@
+{
+  "name": "usmanulhaq/helloworld",
+  "description": "Hello World demo package",
+  "version": "1.0",
+  "authors": [
+    {
+      "name": "Usman ul Haq",
+      "email": "dumy@dumy.com"
+    }
+  ],
+
+  "autoload": {
+    "psr-4": {
+      "usmanulhaq\\helloworld\\": "src/"
+    }
+  },
+
+  "extra": {
+
+    "laravel": {
+      "providers": [
+        "usmanulhaq\\helloworld\\HelloWorldServiceProvider"
+      ]
+    }
+  }
+}
